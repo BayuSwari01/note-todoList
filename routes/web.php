@@ -40,3 +40,7 @@ Route::get('/addNote', function () {
 Route::get('/todoList', function () {
     return view('todoList');
 });
+
+Route::get('/addTodoList', function () {
+    return view('addTodoList');
+});

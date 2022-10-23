@@ -1,6 +1,6 @@
 @extends('layout.templateSesudah')
 
-@section('title', 'Tambah Catatan')
+@section('title', 'Tambah Todo List')
 
 @section('navbar')
 @parent
@@ -10,15 +10,15 @@
     <div class="container text-light" style="margin-top: 80px">
         <form>
             <div class="form-group">
-              <label for="exampleFormControlInput1">Judul</label>
+              <label for="exampleFormControlInput1">Todo</label>
               <input type="email" class="form-control bg-secondary" id="exampleFormControlInput1">
             </div>
             <div class="form-group" style="margin-top: 20px">
-              <label for="exampleFormControlTextarea1">Isi Catatan</label>
-              <textarea class="form-control bg-secondary" id="exampleFormControlTextarea1" rows="8"></textarea>
+              <label for="exampleFormControlTextarea1">Deadline</label>
+              <input type="date" class="form-control bg-secondary" id="exampleFormControlInput1">
             </div>
             <div class="form-group" style="margin-top: 20px">
-                <button type="button" class="btn btn-light">Tambah Catatan</button>
+                <button type="button" class="btn btn-light">Tambah Todo</button>
             </div>
         </form>
     </div>

@@ -1,6 +1,6 @@
 @extends('layout.templateSesudah')
 
-@section('title', 'Home')
+@section('title', 'Note')
 
 @section('navbar')
 @parent

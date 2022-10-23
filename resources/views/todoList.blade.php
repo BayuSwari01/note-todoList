@@ -1,6 +1,6 @@
 @extends('layout.templateSesudah')
 
-@section('title', 'Home')
+@section('title', 'Todo List')
 
 @section('navbar')
 @parent
@@ -56,8 +56,7 @@
             </tbody>
         </table>
         <div class="containter">
-            <button class="btn btn-dark bg-light text-primary position-absolute top-50 end-0 translate-middle-y" style="margin-top: 250px; margin-right: 125px">Tambah</button>
+            <button class="btn btn-dark bg-light text-primary position-absolute top-50 end-0 translate-middle-y" style="margin-top: 250px; margin-right: 125px" onclick="location.href='{{url('addTodoList')}}'">Tambah</button>
         </div>
-        
     </div>
 @endsection

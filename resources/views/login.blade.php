@@ -1,6 +1,6 @@
 @extends('layout.template')
 
-@section('title', 'Home')
+@section('title', 'Login')
 
 @section('navbar')
 @parent
