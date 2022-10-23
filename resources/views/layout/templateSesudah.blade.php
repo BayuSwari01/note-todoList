@@ -13,12 +13,21 @@
       @section('navbar')
       <nav class="navbar navbar-expand-lg bg-primary">
         <div class="row container-fluid">
-          <div class="col-9 text-start">
-            <h2 class="text-light">NoteList</h2>
-          </div>
-          <div class="col-3 justify-content-end">
-            <button class="btn btn-outline-light position-absolute top-50 end-0 translate-middle-y" type="submit" style="margin-right: 10px" onclick="location.href='{{url('home')}}'">Login</button>
-          </div>
+            <div class="col-10 text-start">
+                <h2 class="text-light">NoteList</h2>
+            </div>
+            <div class="col-2 justify-content-end">
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link active  text-light" aria-current="page" href="#" style="margin-right: 15px">Note</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link  text-light" href="{{url('welcome')}}">Todo List</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
         </div>
       </nav>
       @show
