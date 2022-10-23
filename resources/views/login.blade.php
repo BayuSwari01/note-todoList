@@ -19,7 +19,7 @@
                                         <span class="text-light">Email or username</span>
                                     </div>
                                     <div class="col">
-                                        <input autocomplete="off" type="text" v-model="email" v-bind:class="{'form-control':true, 'is-invalid' : !validEmail(email) && emailBlured}" v-on:blur="emailBlured = true">
+                                        <input autocomplete="off" type="text" v-model="email" class="form-control bg-secondary" style="width: 250px">
                                     </div>
                                 </div>
                             </div>
@@ -32,7 +32,7 @@
                                         <span class="text-light">Password</span>
                                     </div>
                                     <div class="col">
-                                        <input autocomplete="off" type="password" v-model="password" v-bind:class="{'form-control':true, 'is-invalid' : !validPassword(password) && passwordBlured}" v-on:blur="passwordBlured = true">
+                                        <input autocomplete="off" type="password" v-model="password" class="form-control bg-secondary" style="width: 250px">
                                     </div>
                                 </div>
                             </div>

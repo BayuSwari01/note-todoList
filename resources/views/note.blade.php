@@ -57,7 +57,7 @@
             <div class="col" style="margin-top: 15px">
                 <div class="card bg-primary" style="width: 18rem;">
                     <div class="card-body">
-                        <img src="{{ asset('images/add.png') }}" alt="" width="105" height="105">
+                        <img src="{{ asset('images/add.png') }}" alt="" width="105" height="105" onclick="location.href='{{url('addNote')}}'">
                     </div>
                 </div>
             </div>

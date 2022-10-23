@@ -32,3 +32,7 @@ Route::get('/login', function () {
 Route::get('/note', function () {
     return view('note');
 });
+
+Route::get('/addNote', function () {
+    return view('addNote');
+});
