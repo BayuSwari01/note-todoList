@@ -23,7 +23,7 @@
                             <a class="nav-link active  text-light" aria-current="page" href="{{url('note')}}" style="margin-right: 15px">Note</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link  text-light" href="{{url('note')}}" style="margin-right: 15px">Todo List</a>
+                            <a class="nav-link  text-light" href="{{url('todoList')}}" style="margin-right: 15px">Todo List</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link  text-light" href="{{url('')}}">Logout</a>

@@ -36,3 +36,7 @@ Route::get('/note', function () {
 Route::get('/addNote', function () {
     return view('addNote');
 });
+
+Route::get('/todoList', function () {
+    return view('todoList');
+});
