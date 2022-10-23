@@ -8,7 +8,7 @@
 
 @section('content')
     <div class="container" style="margin-top: 20px">
-        <table class="table">
+        <table class="table text-light">
             <thead>
               <tr>
                 <th scope="col" colspan="2">Senin 24-11-2022</th>
