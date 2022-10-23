@@ -25,7 +25,10 @@ Route::get('/home', function () {
     return view('indexSesudah');
 });
 
-
 Route::get('/login', function () {
     return view('login');
+});
+
+Route::get('/note', function () {
+    return view('note');
 });

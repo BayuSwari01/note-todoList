@@ -13,11 +13,11 @@
       @section('navbar')
       <nav class="navbar navbar-expand-lg bg-primary">
         <div class="row container-fluid">
-          <div class="col-9 text-start">
+          <div class="col-9 text-start" onclick="location.href='{{url('home')}}'">
             <h2 class="text-light">NoteList</h2>
           </div>
           <div class="col-3 justify-content-end">
-            <button class="btn btn-outline-light position-absolute top-50 end-0 translate-middle-y" type="submit" style="margin-right: 10px" onclick="location.href='{{url('home')}}'">Login</button>
+            <button class="btn btn-outline-light position-absolute top-50 end-0 translate-middle-y" type="submit" style="margin-right: 10px" onclick="location.href='{{url('login')}}'">Login</button>
           </div>
         </div>
       </nav>

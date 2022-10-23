@@ -10,7 +10,7 @@
     <div class="container mt-5">
         <div class="row d-flex justify-content-center">
             <div class="col-md-6">
-                <div class="card px-5 py-5 bg-primary" id="form1">
+                <div class="card px-5 py-5 bg-primary" id="form1" style="margin-top: 100px" >
                     <div class="form-data" v-if="!submitted">
                         <div class="forms-inputs mb-4">                            
                             <div class="container">
@@ -38,7 +38,7 @@
                             </div>
                         </div>
                         <div class="mb-3">
-                            <button class="btn btn-dark w-100 bg-light text-primary">Login</button>
+                            <button class="btn btn-dark w-100 bg-light text-primary" onclick="location.href='{{url('home')}}'">Login</button>
                         </div>
                     </div>
                 </div>
